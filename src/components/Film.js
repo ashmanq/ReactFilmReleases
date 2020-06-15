@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Film extends Component {
-
-  render() {
+const Film = (props) => {
     return (
-      <p>This is the Film Component!</p>
+      <li>
+        <a href={props.film.url}>{ props.film.name }</a>
+      </li>
     );
-  }
 };
 
 export default Film

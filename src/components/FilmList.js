@@ -1,16 +1,19 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import Film from './Film.js';
 
-class FilmList extends Component {
+const FilmList = (props) => {
 
-  render() {
-    return (
-      <Fragment>
-        <Film></Film>
-        <Film></Film>
-      </Fragment>
-    );
-  }
+  const filmNodes = props.films.map((film) => {
+    return <Film film={film} key={film.id} />
+  });
+
+  return (
+    <Fragment>
+      <ul>
+        { filmNodes }
+      </ul>
+    </Fragment>
+  );
 };
 
 export default FilmList;
