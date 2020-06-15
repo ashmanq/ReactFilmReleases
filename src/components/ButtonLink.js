@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class ButtonLink extends Component {
-
-  render() {
+const ButtonLink = (props) => {
+  const className = "button";
     return (
-      <button>This is a button link</button>
+      <a className = { className } href={props.link.url}>{ props.link.title }</a>
     );
-  }
 };
 
 
