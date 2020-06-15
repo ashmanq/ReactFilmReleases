@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Film from './Film.js';
 
 class FilmList extends Component {
 
   render() {
     return (
-      <div>
+      <Fragment>
         <Film></Film>
         <Film></Film>
-      </div>
+      </Fragment>
     );
   }
 };
