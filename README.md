@@ -1,6 +1,7 @@
 # React Film Releases
 A React app that lists film releases using the React component architecture.
 
+The structure off the app was first planned out (refer to planning folder) to split out the requirements into components. This was then used to implement the app using the React framework.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
