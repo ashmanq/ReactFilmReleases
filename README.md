@@ -1,3 +1,7 @@
+# React Film Releases
+A React app that lists film releases using the React component architecture.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
