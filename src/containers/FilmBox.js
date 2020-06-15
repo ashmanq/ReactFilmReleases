@@ -36,12 +36,14 @@ class FilmBox extends Component {
     }
   }
   render() {
-    let className = "list";
-    
+    const className = "list";
+
     return (
       <div className = { className }>
-        <h1>Upcoming Film Releases</h1>
+        <h2>Upcoming Film Releases for UK</h2>
+        <hr />
         <FilmList films={this.state.films} />
+        <hr />
         <ButtonLink link={{title: "View more upcoming releases >>", url: "https://www.imdb.com/calendar/?region=gb"}}/>
       </div>
     );

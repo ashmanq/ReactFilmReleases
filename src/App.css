@@ -28,11 +28,48 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root {
+  display:flex;
+  justify-content: center;
+
+}
+li {
+  padding:0.5em;
+}
+
+hr {
+    /* border: 2px solid red; */
+    width:100%
+}
+.item {
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight:bold;
+  color: steelblue;
+}
+.list {
+  display:flex;
+
+  flex-direction:column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  background:whitesmoke;
+
+  border-style: solid;
+  border-width: 2px;
+  margin:2em;
+  padding:2em;
+}
+
+.button {
+  background: lightsteelblue;
+  font-size: 1.1em;
+  font-weight:bold;
+  text-decoration: none;
+  color: steelblue;
+  padding:1.1em 2.5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
 }
