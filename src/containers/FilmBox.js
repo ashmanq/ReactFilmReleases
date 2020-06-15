@@ -4,7 +4,10 @@ import FilmList from '../components/FilmList.js';
 class FilmBox extends Component {
   render() {
     return (
-      <FilmList />
+      <div>
+        <h1>Upcoming Film Releases</h1>
+        <FilmList />
+      </div>
     );
   }
 };

@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Film from './Film.js';
 
 class FilmList extends Component {
 
   render() {
     return (
-      <p>This is the FilmList Component!</p>
+      <div>
+        <Film></Film>
+        <Film></Film>
+      </div>
     );
   }
 };
